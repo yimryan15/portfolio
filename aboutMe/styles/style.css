@@ -114,6 +114,35 @@ p {
   border: 5px solid lightblue
 }
 
+/*styling the font-awesome*/
+.fa {
+		width: 30px;
+		border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Github */
+.fa-github {
+    background: black;
+    color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #00aced;
+    color: white;
+}
+
 @media (min-width: 1200px) {
   .image-gallery img {
     height: 150px;
